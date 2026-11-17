@@ -1,0 +1,750 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Пятая Гайка — шиномонтаж и хранение колёс в Челябинске</title>
+<meta name="description" content="Шиномонтаж в Челябинске: цена по радиусу до записи, онлайн-запись на слот, хранение шин, автопромокоды. Закрутим без сюрпризов.">
+<meta name="robots" content="noindex, nofollow">
+<meta property="og:title" content="Пятая Гайка — шиномонтаж в Челябинске">
+<meta property="og:description" content="Закрутим без сюрпризов: цена вперёд, запись на слот, хранение шин.">
+<link href="fonts/fonts.css" rel="stylesheet">
+<!-- Метрика: вставьте сюда код счётчика клиента -->
+<script>document.documentElement.className+=" js"</script>
+<style>
+:root{--bg:#F2F4EF;--bg2:#E6EBE3;--card:#FFFFFF;--ink:#12201A;--mute:#56655D;--acc:#C8F03C;--acc-ink:#12201A;--line:#D3DBD0;--ok:#1F7A3E;--bad:#B3261E;--r:16px;--sh:0 10px 30px -14px rgba(18,32,26,.28)}
+*{box-sizing:border-box;margin:0}
+html{scroll-behavior:smooth;scroll-padding-top:90px}
+body{font:400 16px/1.55 'Manrope',system-ui,Arial,sans-serif;color:var(--ink);background:var(--bg);overflow-x:hidden;-webkit-text-size-adjust:100%}
+img,svg,canvas{max-width:100%;display:block}
+a{color:inherit}
+button,input,select,textarea{font:inherit;color:inherit}
+[hidden]{display:none!important}
+h1,h2,h3,h4{font-family:'Unbounded','Manrope',sans-serif;font-weight:700;line-height:1.14;letter-spacing:-.01em}
+h1{font-size:clamp(1.9rem,6.4vw,3.6rem)}
+h2{font-size:clamp(1.45rem,4.2vw,2.35rem)}
+h3{font-size:1.05rem;font-weight:600}
+.wr{max-width:1160px;margin:0 auto;padding:0 20px}
+.sec{padding:64px 0}
+.sec.alt{background:var(--bg2)}
+.sec.dark{background:var(--ink);color:var(--bg)}
+.sec.dark .mute,.sec.dark .lead{color:#B9C6BE}
+.mute{color:var(--mute)}
+.mk{background:linear-gradient(transparent 60%,var(--acc) 60%);padding:0 .08em}
+.sec.dark .mk{background:var(--acc);color:var(--ink);padding:0 .18em;border-radius:.14em;-webkit-box-decoration-break:clone;box-decoration-break:clone}
+.sh{display:grid;grid-template-columns:auto 1fr;gap:6px 16px;align-items:center;margin-bottom:28px}
+.sh h2{grid-column:2}
+.sh p{grid-column:1/-1;color:var(--mute);max-width:720px}
+.sec.dark .sh p{color:#B9C6BE}
+.hexn{width:54px;height:48px;background:var(--ink);color:var(--bg);display:grid;place-items:center;font:700 .85rem 'Unbounded',sans-serif;clip-path:polygon(25% 3%,75% 3%,100% 50%,75% 97%,25% 97%,0 50%)}
+.sec.dark .hexn{background:var(--acc);color:var(--acc-ink)}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:48px;padding:12px 22px;border:2px solid var(--ink);border-radius:999px;background:var(--acc);color:var(--acc-ink);font-weight:700;text-decoration:none;cursor:pointer;transition:transform .15s,box-shadow .15s;text-align:center}
+.btn:hover{transform:translateY(-2px);box-shadow:0 8px 18px -8px rgba(18,32,26,.5)}
+.btn:focus-visible,a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,summary:focus-visible{outline:3px solid var(--ink);outline-offset:2px}
+.btn.line{background:transparent;color:inherit}
+.btn.dark{background:var(--ink);color:var(--bg)}
+.btn.sm{min-height:40px;padding:8px 16px;font-size:.92rem}
+.btn[disabled]{opacity:.45;cursor:not-allowed;transform:none;box-shadow:none}
+.row{display:flex;flex-wrap:wrap;gap:12px;align-items:center}
+.card{background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:22px;box-shadow:var(--sh)}
+.sec.dark .card{background:#1B2D25;border-color:#2B4036;color:var(--bg);box-shadow:none}
+.chip{display:inline-block;background:var(--acc);color:var(--acc-ink);font:700 .75rem 'Manrope',sans-serif;padding:3px 10px;border-radius:999px;letter-spacing:.02em}
+.chip.ghost{background:transparent;border:1px solid currentColor}
+.grid{display:grid;gap:16px}
+/* top strip + nav */
+.strip{background:var(--ink);color:#DCE5DF;font-size:13px}
+.strip .wr{display:flex;justify-content:space-between;gap:12px;padding-top:8px;padding-bottom:8px;flex-wrap:wrap}
+.strip a{text-decoration:none;font-weight:700;color:#fff;border-bottom:2px solid var(--acc)}
+.nav{position:sticky;top:0;z-index:50;background:rgba(242,244,239,.92);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.nav .wr{display:flex;align-items:center;gap:14px;min-height:66px}
+.logo{display:flex;align-items:center;gap:10px;text-decoration:none;font:700 1.02rem 'Unbounded',sans-serif;white-space:nowrap}
+.logo svg{width:38px;height:38px}
+.logo small{display:block;font:500 .68rem 'Manrope',sans-serif;color:var(--mute);letter-spacing:.02em;margin-top:2px}
+.menu{display:none;margin-left:auto;gap:2px;align-items:center}
+.menu a{text-decoration:none;font-weight:600;font-size:.92rem;padding:8px 9px;border-radius:8px}
+.menu a:hover{background:var(--bg2)}
+.nav-phone{display:none;font-weight:800;text-decoration:none;white-space:nowrap}
+.nav .btn{margin-left:auto}
+.nav-toggle{position:absolute;opacity:0;pointer-events:none}
+.burger{width:44px;height:44px;border:2px solid var(--ink);border-radius:12px;display:grid;place-content:center;gap:5px;cursor:pointer}
+.burger i{display:block;width:20px;height:2px;background:var(--ink)}
+.nav-toggle:checked~.wr .menu,.nav-toggle:checked~.mm{display:flex}
+.nav-toggle:focus-visible~.wr .burger{outline:3px solid var(--ink);outline-offset:2px}
+.mm{display:none;flex-direction:column;padding:6px 20px 16px;border-top:1px solid var(--line);background:var(--bg)}
+.mm a{padding:12px 4px;border-bottom:1px solid var(--line);text-decoration:none;font-weight:700}
+@media(min-width:1100px){.menu{display:flex}.burger,.mm{display:none!important}.nav-phone{display:block}.nav .btn{margin-left:0}}
+/* ticker */
+.ticker{background:var(--acc);color:var(--acc-ink);overflow:hidden;white-space:nowrap;padding:12px 0;font:700 .86rem 'Manrope',sans-serif;letter-spacing:.04em;text-transform:uppercase;border-block:2px solid var(--ink)}
+.ticker div{display:inline-flex;animation:tick 40s linear infinite;will-change:transform}
+.ticker span{margin-right:34px}
+.ticker span:before{content:"";display:inline-block;width:11px;height:10px;margin-right:14px;background:var(--ink);clip-path:polygon(25% 3%,75% 3%,100% 50%,75% 97%,25% 97%,0 50%)}
+@keyframes tick{to{transform:translateX(-50%)}}
+/* trust numbers */
+.nums{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}
+.num{border-top:3px solid var(--ink);padding-top:10px}
+.num b{display:block;font:700 clamp(1.7rem,5vw,2.6rem) 'Unbounded',sans-serif;line-height:1}
+.num span{display:block;margin-top:6px;color:var(--mute);font-size:.9rem}
+/* pain */
+.pain{display:grid;gap:14px}
+.pain article{display:grid;gap:8px;background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:20px;position:relative}
+.pain h3{font-family:'Manrope',sans-serif;font-size:1.05rem}
+.pain h3:before{content:"?";display:inline-grid;place-items:center;width:26px;height:26px;margin-right:10px;border-radius:50%;background:var(--ink);color:var(--bg);font:700 .9rem 'Unbounded',sans-serif}
+.pain p{padding-left:36px;color:var(--mute)}
+.pain p b{color:var(--ink)}
+/* price table */
+.tbl-wrap{overflow-x:auto;border:1px solid var(--line);border-radius:var(--r);background:var(--card);-webkit-overflow-scrolling:touch}
+table.price{width:100%;border-collapse:collapse;min-width:520px}
+.price th,.price td{padding:12px 16px;text-align:right;border-bottom:1px solid var(--line);white-space:nowrap}
+.price th:first-child,.price td:first-child{text-align:left;font-weight:800}
+.price thead th{background:var(--ink);color:var(--bg);font:600 .8rem 'Unbounded',sans-serif}
+.price tbody tr:last-child td{border-bottom:0}
+.price tbody tr:hover td{background:#F7FAEE}
+.price td.na{color:var(--mute)}
+.incl{display:grid;gap:12px;margin-top:20px}
+.incl .card{padding:18px}
+.incl ul{margin:8px 0 0;padding-left:18px;color:var(--mute)}
+/* forms */
+label.f{display:grid;gap:6px;font-weight:700;font-size:.88rem}
+.in{width:100%;min-height:48px;padding:10px 14px;border:2px solid var(--line);border-radius:12px;background:#fff;font-weight:500}
+.in:focus{border-color:var(--ink);outline:none}
+.chk{display:flex;gap:10px;align-items:flex-start;font-weight:500;font-size:.92rem;cursor:pointer}
+.chk input{width:20px;height:20px;margin-top:2px;accent-color:var(--ink);flex:none}
+.fgrid{display:grid;gap:14px}
+.out{background:var(--ink);color:var(--bg);border-radius:var(--r);padding:22px}
+.out ul{list-style:none;padding:0;margin:0 0 14px;display:grid;gap:6px;font-size:.95rem}
+.out li{display:flex;justify-content:space-between;gap:12px;border-bottom:1px dashed #3C5448;padding-bottom:6px}
+.out .tot{display:flex;justify-content:space-between;align-items:baseline;gap:12px;font:700 1.5rem 'Unbounded',sans-serif;margin:6px 0 4px}
+.out .tot small{font:500 .8rem 'Manrope',sans-serif;color:#B9C6BE}
+.out .note{font-size:.82rem;color:#B9C6BE}
+.out .promo{color:#C8F03C}
+/* booking */
+.live{display:flex;flex-wrap:wrap;gap:10px 18px;align-items:center;background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:14px 18px;margin-bottom:20px;font-weight:600}
+.live i{display:inline-block;width:10px;height:10px;border-radius:50%;background:var(--ok);margin-right:8px;box-shadow:0 0 0 4px rgba(31,122,62,.18)}
+.live .posts{display:flex;gap:6px}
+.live .posts b{display:grid;place-items:center;width:34px;height:34px;border-radius:8px;border:2px solid var(--ink);font-size:.8rem}
+.live .posts b.busy{background:var(--ink);color:var(--bg)}
+.bk{display:grid;gap:20px}
+.bk h3{margin:0 0 12px}
+.bk .stp{display:grid;gap:12px;margin-bottom:22px}
+.days{display:flex;gap:8px;overflow-x:auto;padding-bottom:6px;-webkit-overflow-scrolling:touch}
+.day{flex:none;min-width:76px;padding:8px 10px;border:2px solid var(--line);border-radius:12px;background:#fff;cursor:pointer;text-align:center;font-weight:700;line-height:1.25}
+.day small{display:block;font-weight:500;color:var(--mute);font-size:.72rem}
+.day[aria-pressed=true]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.day[aria-pressed=true] small{color:#B9C6BE}
+.day[disabled]{opacity:.4;cursor:not-allowed}
+.pills{display:flex;flex-wrap:wrap;gap:8px}
+.pill{min-height:44px;padding:8px 16px;border:2px solid var(--line);border-radius:999px;background:#fff;font-weight:700;cursor:pointer}
+.pill[aria-pressed=true]{background:var(--acc);border-color:var(--ink)}
+.times{display:grid;grid-template-columns:repeat(auto-fill,minmax(78px,1fr));gap:8px}
+.tm{min-height:44px;border:2px solid var(--line);border-radius:10px;background:#fff;font-weight:700;cursor:pointer}
+.tm:hover{border-color:var(--ink)}
+.tm[aria-pressed=true]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.tm[disabled]{background:var(--bg2);color:#9AA79F;text-decoration:line-through;cursor:not-allowed;border-style:dashed}
+.sum dl{display:grid;grid-template-columns:auto 1fr;gap:6px 14px;margin:0 0 14px;font-size:.95rem}
+.sum dt{color:var(--mute)}
+.sum dd{margin:0;font-weight:700;text-align:right}
+.sum .tot{font:700 1.4rem 'Unbounded',sans-serif;display:flex;justify-content:space-between;gap:10px;margin:12px 0}
+.msg{font-size:.9rem;font-weight:600;padding:10px 14px;border-radius:10px;background:var(--bg2)}
+.msg.err{background:#FBE4E1;color:var(--bad)}
+.okbox{border:3px solid var(--ink);background:var(--card);border-radius:20px;padding:26px;display:grid;gap:14px}
+.code{display:inline-block;font:700 1.9rem 'Unbounded',sans-serif;background:var(--acc);padding:6px 16px;border-radius:12px;border:2px solid var(--ink);letter-spacing:.06em}
+.qr{width:150px;height:150px;border:2px solid var(--ink);border-radius:10px;padding:8px;background:#fff}
+.pay{display:grid;gap:12px;padding:16px;border:2px dashed var(--ink);border-radius:14px}
+/* faq */
+details.q{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:0 18px}
+details.q+details.q{margin-top:10px}
+details.q summary{cursor:pointer;font-weight:700;padding:16px 0;list-style:none;display:flex;justify-content:space-between;gap:12px;align-items:center}
+details.q summary::-webkit-details-marker{display:none}
+details.q summary:after{content:"+";font:700 1.4rem 'Unbounded',sans-serif;flex:none}
+details.q[open] summary:after{content:"\2212"}
+details.q p{padding-bottom:16px;color:var(--mute)}
+/* reviews */
+.rev{display:grid;gap:14px}
+.rv{display:grid;gap:10px}
+.stars{color:var(--ink);letter-spacing:3px;font-size:1.05rem}
+.rv .who{font-weight:800}
+.rv small{color:var(--mute)}
+/* photos */
+.ph{position:relative;overflow:hidden;border-radius:var(--r);background:var(--bg2) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 120 120'%3E%3Ccircle cx='60' cy='60' r='44' fill='%2312201A'/%3E%3Ccircle cx='60' cy='60' r='28' fill='%23D3DBD0'/%3E%3Ccircle cx='60' cy='60' r='8' fill='%2312201A'/%3E%3Cg fill='%2312201A'%3E%3Ccircle cx='60' cy='42' r='4'/%3E%3Ccircle cx='77' cy='54' r='4'/%3E%3Ccircle cx='71' cy='74' r='4'/%3E%3Ccircle cx='49' cy='74' r='4'/%3E%3Ccircle cx='43' cy='54' r='4'/%3E%3C/g%3E%3C/svg%3E") center/38% no-repeat}
+.ph img{width:100%;height:100%;object-fit:cover;position:relative}
+.ph figcaption{position:absolute;left:10px;bottom:10px;background:var(--acc);color:var(--acc-ink);font:700 .78rem 'Manrope',sans-serif;padding:4px 10px;border-radius:999px;z-index:2}
+/* contacts / footer */
+.cts{display:grid;gap:16px}
+.cts dl{display:grid;gap:12px;margin:0}
+.cts dt{font-weight:800;font-size:.85rem;color:var(--mute);text-transform:uppercase;letter-spacing:.05em}
+.cts dd{margin:2px 0 0;font-weight:600}
+.map{min-height:260px;border-radius:var(--r);border:2px solid var(--ink);background:repeating-linear-gradient(45deg,#E6EBE3 0 14px,#DDE4DA 14px 28px);display:grid;place-items:center;text-align:center;padding:20px;font-weight:700}
+.map svg{width:46px;margin:0 auto 8px}
+footer{background:var(--ink);color:#DCE5DF;padding:40px 0 100px;font-size:.92rem}
+footer .wr{display:grid;gap:18px}
+footer a{color:#fff}
+footer .made{display:inline-block;margin-top:8px;color:#B9C6BE;text-decoration:none;border-bottom:1px solid #3C5448}
+footer .made:hover{color:#fff}
+footer .smp{font-weight:700;color:#fff}
+.fab{position:fixed;right:14px;bottom:14px;z-index:60;display:flex;gap:8px}
+.fab a{display:grid;place-items:center;width:54px;height:54px;border-radius:50%;background:var(--acc);border:2px solid var(--ink);box-shadow:0 8px 20px -6px rgba(18,32,26,.5);text-decoration:none}
+.fab svg{width:26px;height:26px}
+.fab .tg{background:var(--card)}
+@media(min-width:1100px){.fab{display:none}}
+/* reveal */
+.js .rv-in{opacity:0;transform:translateY(18px);transition:opacity .6s,transform .6s}
+.js .rv-in.on{opacity:1;transform:none}
+@media(min-width:768px){
+ .sec{padding:92px 0}
+ .nums{grid-template-columns:repeat(4,1fr)}
+ .pain{grid-template-columns:repeat(2,1fr)}
+ .incl{grid-template-columns:repeat(3,1fr)}
+ .fgrid.c2{grid-template-columns:1fr 1fr}
+ .rev{grid-template-columns:repeat(3,1fr)}
+ .cts{grid-template-columns:1fr 1.2fr}
+ footer .wr{grid-template-columns:1.4fr 1fr 1fr}
+ footer{padding-bottom:40px}
+}
+@media(min-width:1200px){.bk{grid-template-columns:1.5fr 1fr;align-items:start}.bk .sum{position:sticky;top:90px}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;scroll-behavior:auto!important}.js .rv-in{opacity:1;transform:none}}
+@media print{.noprint{display:none!important}}
+.nofs{border:0;padding:0;min-width:0}.nofs legend{margin-bottom:6px;font-weight:700}.sl{list-style:none;padding:0;display:grid;gap:4px;font-size:.9rem}
+.mt12{margin-top:12px}.mt14{margin-top:14px}.mt16{margin-top:16px}.mt28{margin-top:28px}.mt34{margin-top:34px}.fs{font-size:.85rem}.pl{padding-left:18px}.out .btn.line{color:var(--bg);border-color:var(--bg)}
+
+/* ---- Премиум: свой рисунок ---- */
+.hero{position:relative;padding:34px 0 52px;overflow:hidden;background:linear-gradient(180deg,var(--bg) 0,var(--bg2) 100%)}
+.hero .wr{display:grid;gap:26px;position:relative;z-index:1}
+.hero-bg{position:absolute;right:-220px;top:-140px;width:640px;height:640px;opacity:.85;z-index:0;display:none}
+.hero-bg g.spin{transform-origin:0 0;animation:spin 120s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+.kick{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:16px}
+.hero h1{max-width:760px}
+.hero .lead{font-size:1.08rem;color:var(--mute);margin:16px 0 22px;max-width:560px}
+.qk{background:var(--card);border:2px solid var(--ink);border-radius:20px;padding:22px;box-shadow:8px 8px 0 var(--ink);position:relative}
+.qk h2{font-size:1.1rem;margin-bottom:12px}
+.qk:before{content:"";position:absolute;left:18px;right:18px;top:-9px;height:16px;background:repeating-linear-gradient(90deg,var(--ink) 0 10px,transparent 10px 18px);opacity:.0}
+.qk .big{font:700 2rem 'Unbounded',sans-serif;margin:10px 0 2px}
+.qk .big small{font:500 .85rem 'Manrope',sans-serif;color:var(--mute)}
+.qk ul{padding-left:18px;color:var(--mute);font-size:.9rem;margin:8px 0 14px}
+.seasonbar{display:flex;flex-wrap:wrap;gap:10px 24px;font-weight:700;margin-top:26px;font-size:.92rem}
+.seasonbar span:before{content:"";display:inline-block;width:12px;height:11px;margin-right:8px;background:var(--ink);clip-path:polygon(25% 3%,75% 3%,100% 50%,75% 97%,25% 97%,0 50%)}
+.cat-f{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:18px}
+.cats{display:grid;gap:16px}
+.cat{padding:0;overflow:hidden;display:grid}
+.cat .ph{border-radius:0;aspect-ratio:4/3}
+.cat .b{padding:18px;display:grid;gap:8px}
+.cat .pr{font:700 1.25rem 'Unbounded',sans-serif}
+.cat .pr small{font:500 .8rem 'Manrope',sans-serif;color:var(--mute)}
+.promo-g{display:grid;gap:16px}
+.promo{display:grid;gap:8px;align-content:start}
+.promo .cd{font:700 1.4rem 'Unbounded',sans-serif;background:var(--acc);border:2px dashed var(--ink);border-radius:12px;padding:8px 14px;justify-self:start}
+.tour{display:grid;gap:16px;counter-reset:st}
+.st{padding:0;overflow:hidden;position:relative}
+.st .ph{border-radius:0;aspect-ratio:3/2}
+.st .b{padding:16px 18px 20px}
+.st .b h3:before{counter-increment:st;content:counter(st);display:inline-grid;place-items:center;width:30px;height:27px;margin-right:10px;background:var(--ink);color:var(--bg);font:700 .8rem 'Unbounded',sans-serif;clip-path:polygon(25% 3%,75% 3%,100% 50%,75% 97%,25% 97%,0 50%)}
+.st .b p{color:var(--mute);margin-top:6px}
+.hrg{display:grid;gap:20px}
+.hrg .ph{aspect-ratio:16/10}
+.hrg-p{display:grid;gap:12px}
+.two{display:grid;gap:20px}
+.rem{display:grid;gap:12px}
+.snow{aspect-ratio:16/9}
+@media(min-width:768px){
+ .hero{padding:56px 0 76px}
+ .hero .wr{grid-template-columns:1.15fr .85fr;align-items:center;gap:40px}
+ .hero-bg{display:block}
+ .cats{grid-template-columns:repeat(3,1fr)}
+ .promo-g{grid-template-columns:repeat(3,1fr)}
+ .tour{grid-template-columns:repeat(2,1fr)}
+ .hrg{grid-template-columns:1fr 1fr;align-items:center}
+ .two{grid-template-columns:1fr 1fr;align-items:start}
+}
+@media(min-width:1200px){.tour{grid-template-columns:repeat(4,1fr)}}
+</style>
+</head>
+<body>
+<div class="strip"><div class="wr"><a href="../index.html">← Все тарифы</a><span>Тариф «Премиум» · уникальный дизайн, запись на слот, оплата · от 100 000 ₽</span></div></div>
+<header class="nav">
+<input type="checkbox" id="navT" class="nav-toggle" aria-label="Меню">
+<div class="wr">
+<a class="logo" href="#top" aria-label="Пятая Гайка, на главную"><svg viewBox="0 0 40 40" aria-hidden="true"><polygon points="10,2 30,2 40,20 30,38 10,38 0,20" fill="#C8F03C" stroke="#12201A" stroke-width="2"/><text x="20" y="27" text-anchor="middle" font-family="Unbounded,sans-serif" font-weight="700" font-size="20" fill="#12201A">5</text></svg><span>Пятая Гайка<small>Закрутим без сюрпризов</small></span></a>
+<nav class="menu" aria-label="Разделы"><a href="#ceny">Цены</a><a href="#zapis">Запись</a><a href="#hranenie">Хранение</a><a href="#shiny">Шины и диски</a><a href="#akcii">Акции</a><a href="#o-nas">О нас</a><a href="#kontakty">Контакты</a></nav>
+<a class="nav-phone" href="tel:+77777777777">+7 (777) 777-77-77</a>
+<a class="btn sm" href="#zapis">Записаться</a>
+<label class="burger" for="navT" aria-label="Открыть меню"><i></i><i></i><i></i></label>
+</div>
+<nav class="mm" aria-label="Разделы, мобильное меню"><a href="#ceny">Цены и калькулятор</a><a href="#zapis">Запись на слот</a><a href="#hranenie">Хранение шин</a><a href="#shiny">Шины и диски</a><a href="#akcii">Акции и сезон</a><a href="#o-nas">О нас</a><a href="#otzyvy">Отзывы</a><a href="#kontakty">Контакты</a><a href="#pravila">Правила и гарантии</a><a href="tel:+77777777777">Позвонить +7 (777) 777-77-77</a></nav>
+</header>
+<main>
+<section class="hero" id="top">
+<svg class="hero-bg" viewBox="-300 -300 600 600" aria-hidden="true"><g class="spin"><circle r="290" fill="none" stroke="#D3DBD0" stroke-width="2"/><circle r="236" fill="none" stroke="#D3DBD0" stroke-width="2" stroke-dasharray="6 10"/><circle r="120" fill="none" stroke="#D3DBD0" stroke-width="2"/>
+<g fill="#E6EBE3" stroke="#12201A" stroke-width="3"><polygon points="-28,-190 -14,-214 14,-214 28,-190 14,-166 -14,-166"/><polygon transform="rotate(72)" points="-28,-190 -14,-214 14,-214 28,-190 14,-166 -14,-166"/><polygon transform="rotate(144)" points="-28,-190 -14,-214 14,-214 28,-190 14,-166 -14,-166"/><polygon transform="rotate(216)" points="-28,-190 -14,-214 14,-214 28,-190 14,-166 -14,-166"/></g>
+<polygon transform="rotate(288)" fill="#C8F03C" stroke="#12201A" stroke-width="3" points="-28,-190 -14,-214 14,-214 28,-190 14,-166 -14,-166"/></g></svg>
+<div class="wr">
+<div>
+<div class="kick"><span class="chip" id="openNow">Открыто 9:00–21:00</span><span class="chip ghost" id="liveHero">Запись на ближайшие дни открыта</span></div>
+<h1>Переобуем за <span class="mk">40 минут.</span> Цена и слот известны заранее</h1>
+<p class="lead">Закрутим без сюрпризов: цена комплекса по вашему радиусу сразу на экране, запись на конкретный пост и время, хранение шин с договором. Челябинск, ул. Профсоюзная, 99.</p>
+<div class="row"><a class="btn" href="#zapis">Выбрать слот</a><a class="btn line" href="tel:+77777777777">Позвонить</a><a class="btn line" href="https://wa.me/77777777777?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5!%20%D0%A5%D0%BE%D1%87%D1%83%20%D0%BF%D0%B5%D1%80%D0%B5%D0%BE%D0%B1%D1%83%D1%82%D1%8C%D1%81%D1%8F%20%D0%B2%20%C2%AB%D0%9F%D1%8F%D1%82%D0%BE%D0%B9%20%D0%93%D0%B0%D0%B9%D0%BA%D0%B5%C2%BB" target="_blank" rel="noopener">WhatsApp</a><a class="btn line" href="https://t.me/" target="_blank" rel="noopener">Telegram</a></div>
+<div class="seasonbar"><span>Гарантия 30 дней</span><span>Мойка и герметик в цене</span><span>Запись обязательна в сезон</span></div>
+</div>
+<aside class="qk" aria-label="Быстрый расчёт">
+<h2>Сколько стоит мой радиус</h2>
+<div class="fgrid c2">
+<label class="f">Автомобиль<select class="in" id="qCls"><option value="car">Легковой</option><option value="cross">Кроссовер, внедорожник</option><option value="van">Микроавтобус, LCV</option></select></label>
+<label class="f">Радиус<select class="in" id="qR"></select></label>
+</div>
+<div class="big"><span id="qP">3 400 ₽</span> <small>за 4 колеса</small></div>
+<ul><li>снятие и установка, мойка колёс</li><li>демонтаж, монтаж, 3D-балансировка</li><li>герметик, пакеты, протяжка гаек</li></ul>
+<a class="btn" id="qGo" href="#zapis">Записаться с этой ценой</a>
+</aside>
+</div>
+</section>
+<div class="ticker" aria-hidden="true"><div><span>Закрутим без сюрпризов</span><span>Цена по радиусу до записи</span><span>Слоты по 30 минут на 3 постах</span><span>Гайки по моменту, протяжка ключом</span><span>Хранение шин с договором и биркой</span><span>Гарантия на работы 30 дней</span></div></div>
+
+<section class="sec" id="cifry">
+<div class="wr">
+<div class="nums rv-in">
+<div class="num"><b>40 мин</b><span>на четыре колеса в обычный день</span></div>
+<div class="num"><b>3 поста</b><span>и онлайн-запись на каждый</span></div>
+<div class="num"><b>30 дней</b><span>гарантия на монтаж и балансировку</span></div>
+<div class="num"><b>0 ₽</b><span>за «забыли сказать» о доплатах: все в таблице</span></div>
+</div>
+<p class="mute mt12 fs">Цифры в образце, у клиента подставляются его данные.</p>
+</div>
+</section>
+
+<section class="sec alt" id="boli">
+<div class="wr">
+<div class="sh"><span class="hexn">01</span><h2>Что бесит в шиномонтаже, и как у нас</h2></div>
+<div class="pain rv-in">
+<article><h3>Нужна ли запись и сколько ждать?</h3><p><b>Слоты на сайте.</b> Видно, сколько постов занято и какое ожидание. Без записи тоже принимаем, но по свободным постам.</p></article>
+<article><h3>Цена «вдруг» растёт у кассы?</h3><p><b>Цена по радиусу в таблице.</b> Что входит, написано списком. RunFlat, датчики и азот показаны до записи, а не после.</p></article>
+<article><h3>Колёса мешают в гараже?</h3><p><b>Абонемент хранения.</b> 150 ₽ за колесо в месяц с дисками, договор и бирка на каждый комплект.</p></article>
+<article><h3>Гайки закручены «на глаз»?</h3><p><b>Гайковёрт с ограничителем</b> и протяжка динамометрическим ключом по моменту из паспорта авто.</p></article>
+</div>
+</div>
+</section>
+
+<section class="sec" id="ceny">
+<div class="wr">
+<div class="sh"><span class="hexn">02</span><h2>Цены и <span class="mk">калькулятор</span> комплекта</h2>
+<p>Комплекс за 4 колеса по радиусу. Цены в образце на уровне рынка Челябинска, у клиента подставляется его прайс.</p></div>
+<div class="tbl-wrap rv-in"><table class="price"><thead><tr><th scope="col">Радиус</th><th scope="col">Легковой</th><th scope="col">Кроссовер</th><th scope="col">Микроавтобус</th></tr></thead><tbody><tr><th scope="row">R13–R14</th><td>2 900 ₽</td><td class="na">нет</td><td class="na">нет</td></tr><tr><th scope="row">R15</th><td>3 100 ₽</td><td>3 700 ₽</td><td>3 900 ₽</td></tr><tr><th scope="row">R16</th><td>3 400 ₽</td><td>3 900 ₽</td><td>4 200 ₽</td></tr><tr><th scope="row">R17</th><td>3 700 ₽</td><td>4 200 ₽</td><td>4 600 ₽</td></tr><tr><th scope="row">R18</th><td>3 900 ₽</td><td>4 400 ₽</td><td>4 900 ₽</td></tr><tr><th scope="row">R19</th><td>4 300 ₽</td><td>4 800 ₽</td><td>5 200 ₽</td></tr><tr><th scope="row">R20</th><td>4 500 ₽</td><td>5 000 ₽</td><td>5 400 ₽</td></tr><tr><th scope="row">R21–R22</th><td>5 000 ₽</td><td>5 500 ₽</td><td>5 800 ₽</td></tr></tbody></table></div>
+<div class="incl">
+<div class="card"><h3>В цене</h3><ul><li>снятие и установка колёс</li><li>мойка колёс</li><li>демонтаж и монтаж шины</li><li>3D-балансировка</li><li>герметик, пакеты, протяжка гаек</li></ul></div>
+<div class="card"><h3>Доплаты, всё до записи</h3><ul><li>RunFlat или профиль ниже 45: +100 ₽ за колесо</li><li>датчики давления: 100 ₽ за колесо</li><li>азот: 1 000 ₽ за 4 колеса</li><li>утилизация шины: 100 ₽</li></ul></div>
+<div class="card"><h3>Ремонт и диски</h3><ul><li>прокол: латка 500 ₽, грибок 700 ₽</li><li>боковой порез: от 1 200 ₽</li><li>правка литого диска: от 1 000 ₽</li><li>дошиповка: 20 ₽ за шип</li></ul></div>
+</div>
+
+<div class="two mt34" id="kalk">
+<form class="card" id="kForm" onsubmit="return false">
+<h3>Калькулятор комплекта</h3>
+<div class="fgrid c2 mt14">
+<label class="f">Автомобиль<select class="in" id="kCls"><option value="car">Легковой</option><option value="cross">Кроссовер, внедорожник</option><option value="van">Микроавтобус, LCV</option></select></label>
+<label class="f">Радиус<select class="in" id="kR"></select></label>
+<label class="f">Колёс<select class="in" id="kN"><option>4</option><option>3</option><option>2</option><option>1</option></select></label>
+<label class="f">Датчиков давления<select class="in" id="kS"><option>0</option><option>1</option><option>2</option><option>3</option><option>4</option></select></label>
+<label class="f">Утилизировать шин<select class="in" id="kU"><option>0</option><option>1</option><option>2</option><option>3</option><option>4</option></select></label>
+<label class="f">Хранение<select class="in" id="kSt"><option value="0">не нужно</option><option value="1">без дисков, 120 ₽ за колесо в месяц</option><option value="2">с дисками, 150 ₽ за колесо в месяц</option></select></label>
+<label class="f">Месяцев хранения<select class="in" id="kM"><option>1</option><option>3</option><option selected>6</option><option>9</option><option>12</option></select></label>
+</div>
+<div class="fgrid mt14"><label class="chk"><input type="checkbox" id="kRf"> RunFlat или низкий профиль (ниже 45)</label><label class="chk"><input type="checkbox" id="kAz"> Азот вместо воздуха</label></div>
+</form>
+<div class="out" aria-live="polite"><ul id="kL"></ul><div class="tot"><span>Итого</span><span id="kT">—</span></div><p class="note">Примерная цена. Точную подтвердит мастер после осмотра колёс. Промокод СЕЗОН подставляется сам, если хранение от 6 месяцев.</p><div class="row mt14"><button class="btn" type="button" id="kGo">Записаться с этой сметой</button><a class="btn line" id="kWa" href="https://wa.me/77777777777" target="_blank" rel="noopener">Смета в WhatsApp</a></div></div>
+</div>
+</div>
+</section>
+
+<section class="sec alt" id="zapis">
+<div class="wr">
+<div class="sh"><span class="hexn">03</span><h2>Запись на <span class="mk">слот</span></h2>
+<p>Выберите услугу, день, пост и время. Слоты по 30 минут, длительность считается сама: 4 колеса примерно 40 минут, RunFlat и датчики добавляют 10. Бронь получает код и файл для календаря.</p></div>
+<div class="live" id="live" aria-live="polite"><span><i></i><span id="liveTxt">Загрузка постов…</span></span><span class="posts" id="livePosts" aria-hidden="true"></span></div>
+<noscript><p class="msg err">Для записи на слот нужен JavaScript. Запишитесь по телефону +7 (777) 777-77-77 или в WhatsApp.</p></noscript>
+<div class="bk">
+<form class="card" id="bkForm" novalidate>
+<div class="stp"><h3>1. Что делаем</h3>
+<div class="fgrid c2">
+<label class="f">Услуга<select class="in" id="bkSvc"><option value="pereob">Сезонная переобувка (комплекс)</option><option value="balans">Балансировка колёс</option><option value="prokol">Ремонт прокола или пореза</option><option value="pravka">Правка литого диска</option><option value="hran">Сдать или забрать колёса с хранения</option></select></label>
+<label class="f">Автомобиль<select class="in" id="bkCls"><option value="car">Легковой</option><option value="cross">Кроссовер, внедорожник</option><option value="van">Микроавтобус, LCV</option></select></label>
+<label class="f">Радиус<select class="in" id="bkR"></select></label>
+<label class="f">Колёс<select class="in" id="bkN"><option>4</option><option>3</option><option>2</option><option>1</option></select></label>
+</div>
+<label class="chk"><input type="checkbox" id="bkRf"> RunFlat, низкий профиль или датчики давления (+10 минут, +100 ₽ за колесо)</label>
+</div>
+<div class="stp"><h3>2. День</h3><div class="days" id="bkDays" role="group" aria-label="День записи"></div></div>
+<div class="stp"><h3>3. Пост и время</h3>
+<div class="pills" id="bkPosts" role="group" aria-label="Пост"></div>
+<div class="times" id="bkTimes" role="group" aria-label="Время"></div>
+<p class="mute" id="bkHint">Зачёркнутое время занято. Время местное, Челябинск.</p></div>
+<div class="stp"><h3>4. Контакты и оплата</h3>
+<div class="fgrid c2">
+<label class="f">Имя<input class="in" id="bkName" autocomplete="name" placeholder="Как к вам обращаться"></label>
+<label class="f">Телефон<input class="in" id="bkPhone" type="tel" autocomplete="tel" placeholder="+7 ___ ___-__-__"></label>
+</div>
+<label class="chk"><input type="checkbox" id="bkFirst" checked> Обращаюсь впервые (нужно для автопромокода)</label>
+<fieldset class="fgrid nofs"><legend class="mute">Как платим</legend>
+<label class="chk"><input type="radio" name="bkPay" value="sbp" checked> Предоплата 20% через СБП, слот закрепляется за вами</label>
+<label class="chk"><input type="radio" name="bkPay" value="site"> Оплата на месте после работ, бронь держим 15 минут</label></fieldset>
+<label class="chk"><input type="checkbox" id="bkAgree"> Согласен на обработку персональных данных по <a href="#pravila">правилам и политике</a></label>
+<p class="msg err" id="bkErr" hidden></p>
+<button class="btn" type="submit" id="bkGo">Забронировать слот</button>
+</div>
+</form>
+<aside class="card sum" id="bkSum" aria-live="polite">
+<h3>Ваша запись</h3>
+<dl><dt>Услуга</dt><dd id="sSvc">—</dd><dt>Автомобиль</dt><dd id="sCar">—</dd><dt>Длительность</dt><dd id="sDur">—</dd><dt>Слот</dt><dd id="sSlot">не выбран</dd></dl>
+<ul class="mute sl" id="sLines"></ul>
+<div class="tot"><span>Итого</span><span id="sTot">—</span></div>
+<p class="mute" id="sPre"></p>
+<p class="msg" id="sPromo">Автопромокод ЗИМА10: запись на переобувку в будни до 14:00, минус 10% на монтаж.</p>
+</aside>
+</div>
+<div class="okbox" id="bkOk" hidden aria-live="polite">
+<h3>Бронь принята</h3>
+<div><span class="code" id="okCode">ПГ-0000</span></div>
+<p id="okTxt"></p>
+<div class="pay" id="okPay"></div>
+<div class="row"><button class="btn" type="button" id="okIcs">Добавить в календарь (.ics)</button><a class="btn line" id="okWa" href="https://wa.me/77777777777" target="_blank" rel="noopener">Отправить бронь в WhatsApp</a><a class="btn line" id="okTg" href="https://t.me/" target="_blank" rel="noopener">Telegram</a><button class="btn line" type="button" id="okNew">Новая запись</button></div>
+<p class="mute">Это образец: бронь хранится в вашем браузере, настоящая запись и оплата подключаются к рабочей системе клиента.</p>
+</div>
+</div>
+</section>
+
+
+<section class="sec dark" id="hranenie">
+<div class="wr">
+<div class="sh"><span class="hexn">04</span><h2>Хранение шин: <span class="mk">абонемент</span> на сезон</h2><p>Колёса лежат на стеллаже в закрытом помещении, на каждом комплекте бирка и договор. Весной напомним, когда пора на лето.</p></div>
+<div class="hrg">
+<div class="hrg-p">
+<form class="card" id="hForm" onsubmit="return false">
+<div class="fgrid c2">
+<label class="f">Комплект<select class="in" id="hD"><option value="150">С дисками, 150 ₽ за колесо в месяц</option><option value="120">Без дисков, 120 ₽ за колесо в месяц</option></select></label>
+<label class="f">Колёс<select class="in" id="hN"><option>4</option><option>2</option><option>1</option></select></label>
+<label class="f">Срок<select class="in" id="hM"><option value="6">6 месяцев (сезон)</option><option value="3">3 месяца</option><option value="12">12 месяцев</option></select></label>
+</div>
+<label class="chk mt12"><input type="checkbox" id="hS" checked> Переобуваюсь у вас (промокод СЕЗОН: −100 ₽ за колесо при сроке от 6 месяцев)</label>
+</form>
+<div class="out" aria-live="polite"><div class="tot"><span>За весь срок</span><span id="hT">—</span></div><p class="note" id="hNote"></p><div class="row mt12"><button class="btn" type="button" id="hGo">Оформить абонемент</button></div></div>
+<ul class="mute pl"><li>продление в один клик в личном разговоре с менеджером</li><li>выдача по записи на слот, чтобы не ждать</li><li>условия ответственности записаны в договоре хранения</li></ul>
+</div>
+<figure class="ph"><img src="https://images.unsplash.com/photo-1694885156873-6a0823e14848?w=1200&q=75&auto=format" width="1200" height="750" loading="lazy" alt="Длинный ряд стеллажей на складе хранения шин" onerror="this.hidden=true"><figcaption>Стеллажи с биркой на комплект</figcaption></figure>
+</div>
+</div>
+</section>
+
+<section class="sec" id="shiny">
+<div class="wr">
+<div class="sh"><span class="hexn">05</span><h2>Шины и <span class="mk">диски</span></h2><p>Подберём по размеру вашего авто, смонтируем на месте. Названия и цены в образце. При покупке комплекта шин у нас монтаж дешевле на 20%, условия подтверждает менеджер.</p></div>
+<div class="cat-f" role="group" aria-label="Фильтр каталога"><button class="pill" type="button" data-f="all" aria-pressed="true">Все</button><button class="pill" type="button" data-f="tire" aria-pressed="false">Шины</button><button class="pill" type="button" data-f="disk" aria-pressed="false">Диски</button></div>
+<div class="cats" id="cats">
+<article class="card cat" data-t="tire"><figure class="ph"><img src="https://images.unsplash.com/photo-1753030148904-16130157a3e5?w=800&q=75&auto=format" width="800" height="600" loading="lazy" alt="Зимняя шина с агрессивным протектором" onerror="this.hidden=true"></figure><div class="b"><span class="chip">Зима, шип</span><h3>Nordic Grip 205/55 R16</h3><div class="pr">4 200 ₽ <small>за шину, образец</small></div><a class="btn sm line" href="https://wa.me/77777777777?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5!%20%D0%98%D0%BD%D1%82%D0%B5%D1%80%D0%B5%D1%81%D1%83%D0%B5%D1%82%20Nordic%20Grip%20205%2F55%20R16" target="_blank" rel="noopener">Узнать наличие в WhatsApp</a></div></article>
+<article class="card cat" data-t="tire"><figure class="ph"><img src="https://images.unsplash.com/photo-1763584357116-31a7d0bf389d?w=800&q=75&auto=format" width="800" height="600" loading="lazy" alt="Рисунок протектора летней шины крупным планом" onerror="this.hidden=true"></figure><div class="b"><span class="chip">Лето</span><h3>Aerotek Summer 225/45 R17</h3><div class="pr">4 900 ₽ <small>за шину, образец</small></div><a class="btn sm line" href="https://wa.me/77777777777?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5!%20%D0%98%D0%BD%D1%82%D0%B5%D1%80%D0%B5%D1%81%D1%83%D0%B5%D1%82%20Aerotek%20Summer%20225%2F45%20R17" target="_blank" rel="noopener">Узнать наличие в WhatsApp</a></div></article>
+<article class="card cat" data-t="tire"><figure class="ph"><img src="https://images.unsplash.com/photo-1559674697-aea453b06ea9?w=800&q=75&auto=format" width="800" height="600" loading="lazy" alt="Автомобильная шина крупным планом" onerror="this.hidden=true"></figure><div class="b"><span class="chip">Всесезонная</span><h3>Allway Eco 195/65 R15</h3><div class="pr">3 300 ₽ <small>за шину, образец</small></div><a class="btn sm line" href="https://wa.me/77777777777?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5!%20%D0%98%D0%BD%D1%82%D0%B5%D1%80%D0%B5%D1%81%D1%83%D0%B5%D1%82%20Allway%20Eco%20195%2F65%20R15" target="_blank" rel="noopener">Узнать наличие в WhatsApp</a></div></article>
+<article class="card cat" data-t="disk"><figure class="ph"><img src="https://images.unsplash.com/photo-1588663099758-25adf1d77727?w=800&q=75&auto=format" width="800" height="600" loading="lazy" alt="Литой диск с пятью спицами" onerror="this.hidden=true"></figure><div class="b"><span class="chip">Литой, 5 спиц</span><h3>Диск «Тип-5» R16, 5×114,3</h3><div class="pr">5 200 ₽ <small>за диск, образец</small></div><a class="btn sm line" href="https://wa.me/77777777777?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5!%20%D0%98%D0%BD%D1%82%D0%B5%D1%80%D0%B5%D1%81%D1%83%D0%B5%D1%82%20%D0%B4%D0%B8%D1%81%D0%BA%20%D0%A2%D0%B8%D0%BF-5%20R16" target="_blank" rel="noopener">Узнать наличие в WhatsApp</a></div></article>
+<article class="card cat" data-t="disk"><figure class="ph"><img src="https://images.unsplash.com/photo-1594500067118-456bba17ba14?w=800&q=75&auto=format" width="800" height="600" loading="lazy" alt="Многоспицевый литой диск" onerror="this.hidden=true"></figure><div class="b"><span class="chip">Литой, мультиспица</span><h3>Диск «Мульти-10» R17, 5×114,3</h3><div class="pr">6 100 ₽ <small>за диск, образец</small></div><a class="btn sm line" href="https://wa.me/77777777777?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5!%20%D0%98%D0%BD%D1%82%D0%B5%D1%80%D0%B5%D1%81%D1%83%D0%B5%D1%82%20%D0%B4%D0%B8%D1%81%D0%BA%20%D0%9C%D1%83%D0%BB%D1%8C%D1%82%D0%B8-10%20R17" target="_blank" rel="noopener">Узнать наличие в WhatsApp</a></div></article>
+<article class="card cat" data-t="disk"><figure class="ph"><img src="https://images.unsplash.com/photo-1611633235555-45e252fe48c8?w=800&q=75&auto=format" width="800" height="600" loading="lazy" alt="Чёрно-серебристый литой диск" onerror="this.hidden=true"></figure><div class="b"><span class="chip">Литой, графит</span><h3>Диск «Турбо» R18, 5×114,3</h3><div class="pr">7 400 ₽ <small>за диск, образец</small></div><a class="btn sm line" href="https://wa.me/77777777777?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5!%20%D0%98%D0%BD%D1%82%D0%B5%D1%80%D0%B5%D1%81%D1%83%D0%B5%D1%82%20%D0%B4%D0%B8%D1%81%D0%BA%20%D0%A2%D1%83%D1%80%D0%B1%D0%BE%20R18" target="_blank" rel="noopener">Узнать наличие в WhatsApp</a></div></article>
+</div>
+<p class="mute mt16">Рассрочка 0% на комплект шин от 20 000 ₽ (образец, условия и банк подтверждает менеджер).</p>
+</div>
+</section>
+
+<section class="sec alt" id="akcii">
+<div class="wr">
+<div class="sh"><span class="hexn">06</span><h2>Акции, промокоды и <span class="mk">сезон</span></h2><p>Промокоды подставляются сами, вводить ничего не нужно. Условия написаны полностью.</p></div>
+<div class="promo-g">
+<article class="card promo"><span class="cd">ЗИМА10</span><h3>Первый визит в будни до 14:00</h3><p class="mute">Минус 10% на монтаж, когда выбрали слот на переобувку в будний день с 9:00 до 14:00 и отметили «обращаюсь впервые».</p></article>
+<article class="card promo"><span class="cd">СЕЗОН</span><h3>Хранение со скидкой</h3><p class="mute">Минус 100 ₽ за колесо, если берёте хранение от 6 месяцев и переобуваетесь у нас. Комплект с дисками: 3 200 ₽ вместо 3 600 ₽.</p></article>
+<article class="card promo"><span class="cd">−20%</span><h3>Монтаж при покупке шин</h3><p class="mute">Купили комплект шин у нас, монтаж дешевле на 20%. Скидка не суммируется с ЗИМА10.</p></article>
+</div>
+<div class="two mt28">
+<div class="card rem" id="rem">
+<h3>Когда переобуваться</h3>
+<p class="mute">Правило простое: среднесуточная температура +7 °C и ниже в течение 5–7 дней, пора на зимнюю резину. Выше +7 °C стабильно, пора на летнюю.</p>
+<div class="pills" role="group" aria-label="Где напомнить"><button class="pill" type="button" data-c="WhatsApp" aria-pressed="true">Напомнить в WhatsApp</button><button class="pill" type="button" data-c="Telegram" aria-pressed="false">Напомнить в Telegram</button></div>
+<button class="btn" type="button" id="remGo">Напомнить о смене сезона</button>
+<p class="msg" id="remMsg" hidden></p>
+<p class="mute fs">В образце выбор сохраняется в вашем браузере. Подключение реальной погоды и рассылки в мессенджеры в тариф не входит.</p>
+</div>
+<figure class="ph snow"><img src="https://images.unsplash.com/photo-1597220542065-dbd32fb169f9?w=1200&q=75&auto=format" width="1200" height="675" loading="lazy" alt="Красный кроссовер на заснеженной дороге" onerror="this.hidden=true"><figcaption>Первый снег не ждёт записи</figcaption></figure>
+</div>
+</div>
+</section>
+
+<section class="sec" id="o-nas">
+<div class="wr">
+<div class="sh"><span class="hexn">07</span><h2>О нас: путь колеса за <span class="mk">40 минут</span></h2><p>Мастерская на три поста, светлая и тёплая, с зоной ожидания. Вот что происходит с вашим колесом.</p></div>
+<div class="tour">
+<article class="card st"><figure class="ph"><img src="https://images.unsplash.com/photo-1727893119356-1702fe921cf9?w=800&q=75&auto=format" width="800" height="533" loading="lazy" alt="Светлая просторная мастерская, мастера у автомобиля" onerror="this.hidden=true"></figure><div class="b"><h3>Приём</h3><p>Осмотр колёс, согласование цены. Всё, что может подорожать, говорим сразу.</p></div></article>
+<article class="card st"><figure class="ph"><img src="https://images.unsplash.com/photo-1764015805414-df7de89d405b?w=800&q=75&auto=format" width="800" height="533" loading="lazy" alt="Мастер откручивает колесо гайковёртом" onerror="this.hidden=true"></figure><div class="b"><h3>Снятие</h3><p>Гайки откручиваем крестом, метим положение колёс.</p></div></article>
+<article class="card st"><figure class="ph"><img src="https://images.unsplash.com/photo-1645445522156-9ac06bc7a767?w=800&q=75&auto=format" width="800" height="533" loading="lazy" alt="Мастер работает с шиной в мастерской" onerror="this.hidden=true"></figure><div class="b"><h3>Монтаж и баланс</h3><p>Демонтаж, монтаж, 3D-балансировка, герметик на борт.</p></div></article>
+<article class="card st"><figure class="ph"><img src="https://images.unsplash.com/photo-1786489623872-2ebdfe51297c?w=800&q=75&auto=format" width="800" height="533" loading="lazy" alt="Складывание шин в сервисе, диски на стене" onerror="this.hidden=true"></figure><div class="b"><h3>Склад</h3><p>Снятый комплект получает бирку и едет на стеллаж, если вы берёте хранение.</p></div></article>
+</div>
+</div>
+</section>
+
+<section class="sec alt" id="otzyvy">
+<div class="wr">
+<div class="sh"><span class="hexn">08</span><h2>Что пишут клиенты</h2><p>Отзывы в образце. У клиента здесь живые отзывы с 2ГИС и Яндекс Карт со ссылкой на источник.</p></div>
+<div class="rev">
+<article class="card rv"><div class="stars" aria-label="5 из 5">★★★★★</div><p>«Записался через сайт на 10:30, в 10:30 уже стоял на посту. Цену назвали заранее, в конце она не изменилась».</p><div><span class="who">Андрей К.</span><br><small>Образец отзыва · Яндекс Карты</small></div></article>
+<article class="card rv"><div class="stars" aria-label="5 из 5">★★★★★</div><p>«Сдала колёса на хранение в ноябре, договор и бирка на месте. Весной пришло напоминание, забрала по записи за 10 минут».</p><div><span class="who">Марина С.</span><br><small>Образец отзыва · 2ГИС</small></div></article>
+<article class="card rv"><div class="stars" aria-label="4 из 5">★★★★☆</div><p>«Заехал без записи в октябре, подождал 25 минут, как и сказали на сайте. Балансировка идеальная, руль не бьёт».</p><div><span class="who">Дмитрий В.</span><br><small>Образец отзыва · 2ГИС</small></div></article>
+</div>
+</div>
+</section>
+
+<section class="sec" id="kontakty">
+<div class="wr">
+<div class="sh"><span class="hexn">09</span><h2>Контакты</h2></div>
+<div class="cts">
+<dl>
+<div><dt>Адрес</dt><dd>Челябинск, ул. Профсоюзная, 99 (адрес в образце)</dd></div>
+<div><dt>Часы работы</dt><dd>Каждый день 9:00–21:00, в сезон с 8:00 до 22:00</dd></div>
+<div><dt>Телефон</dt><dd><a href="tel:+77777777777">+7 (777) 777-77-77</a></dd></div>
+<div><dt>Мессенджеры</dt><dd class="row"><a class="btn sm" href="https://wa.me/77777777777" target="_blank" rel="noopener">WhatsApp</a><a class="btn sm line" href="https://t.me/" target="_blank" rel="noopener">Telegram</a></dd></div>
+</dl>
+<div class="map" role="img" aria-label="Место для карты проезда"><div><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a7 7 0 0 0-7 7c0 5 7 13 7 13s7-8 7-13a7 7 0 0 0-7-7zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5z" fill="#12201A"/></svg>Здесь карта 2ГИС или Яндекс с меткой мастерской<br><span class="mute">Челябинск, ул. Профсоюзная, 99</span></div></div>
+</div>
+</div>
+</section>
+
+<section class="sec alt" id="pravila">
+<div class="wr">
+<div class="sh"><span class="hexn">10</span><h2>Правила и гарантии</h2></div>
+<details class="q"><summary>Нужна ли запись?</summary><p>В сезон (октябрь–ноябрь, апрель–май) запись обязательна, иначе придётся ждать. Вне сезона принимаем и без записи, по свободным постам.</p></details>
+<details class="q"><summary>Что, если я опоздаю или не смогу приехать?</summary><p>Опоздание до 15 минут допустимо, дальше слот переносим на ближайшее свободное время. Отмена за 2 часа до слота: предоплата возвращается полностью (условие образца).</p></details>
+<details class="q"><summary>Какая гарантия на работы?</summary><p>30 дней на монтаж и балансировку. Если руль бьёт, переделаем бесплатно. Гарантия не распространяется на повреждения шин и дисков, полученные до работ.</p></details>
+<details class="q"><summary>Почему цена зависит от радиуса?</summary><p>Чем больше диск, тем сложнее и дольше монтаж низкопрофильной шины. Поэтому цена растёт вместе с радиусом, и мы показываем её таблицей.</p></details>
+<details class="q"><summary>Можно ли приехать со своими шинами?</summary><p>Да, шиномонтаж по тем же ценам. Шины и диски из каталога сайта подберём под ваш автомобиль.</p></details>
+<details class="q"><summary>Как работает предоплата?</summary><p>Через СБП вносится 20% от стоимости, остаток оплачивается после работ. На сайте номера банковской карты вводить не нужно. В образце платёж не проводится.</p></details>
+<details class="q"><summary>Как вы храните данные?</summary><p>Имя и телефон из записи нужны только для брони. Политику обработки персональных данных клиент размещает на своём сайте, здесь образец текста.</p></details>
+</div>
+</section>
+</main>
+
+<footer>
+<div class="wr">
+<div><b class="smp">Пятая Гайка</b><p>Закрутим без сюрпризов. Шиномонтаж и хранение колёс, Челябинск.</p><p class="smp">Все данные на сайте — образец</p><a class="made" href="https://saitnazakaz.site/" target="_blank" rel="noopener">Сайт сделан в HTML_SAIT</a></div>
+<div><p>Челябинск, ул. Профсоюзная, 99<br>Ежедневно 9:00–21:00</p></div>
+<div><p><a href="tel:+77777777777">+7 (777) 777-77-77</a><br><a href="https://wa.me/77777777777" target="_blank" rel="noopener">WhatsApp</a> · <a href="https://t.me/" target="_blank" rel="noopener">Telegram</a></p><p><a href="#pravila">Правила и политика</a></p></div>
+</div>
+</footer>
+<div class="fab" aria-label="Быстрая связь"><a href="tel:+77777777777" aria-label="Позвонить"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.62 10.79a15.05 15.05 0 0 0 6.59 6.59l2.2-2.2a1 1 0 0 1 1.02-.24c1.12.37 2.33.57 3.57.57a1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57a1 1 0 0 1-.25 1.02l-2.2 2.2z" fill="#12201A"/></svg></a><a class="tg" href="https://wa.me/77777777777" target="_blank" rel="noopener" aria-label="Написать в WhatsApp"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3a9 9 0 0 0-7.7 13.6L3 21l4.5-1.2A9 9 0 1 0 12 3z" fill="none" stroke="#12201A" stroke-width="2"/></svg></a></div>
+<script>
+(function(){
+'use strict';
+var $=function(s,r){return (r||document).querySelector(s)},$$=function(s,r){return Array.prototype.slice.call((r||document).querySelectorAll(s))};
+var pad=function(n){return (n<10?'0':'')+n};
+var rub=function(n){return String(Math.round(n)).replace(/\B(?=(\d{3})+(?!\d))/g,' ')+' ₽'};
+var PHONE='77777777777';
+var P={car:{13:2900,14:2900,15:3100,16:3400,17:3700,18:3900,19:4300,20:4500,21:5000,22:5000},cross:{15:3700,16:3900,17:4200,18:4400,19:4800,20:5000,21:5500,22:5500},van:{15:3900,16:4200,17:4600,18:4900,19:5200,20:5400,21:5800,22:5800}};
+var CLS={car:'Легковой',cross:'Кроссовер, внедорожник',van:'Микроавтобус, LCV'};
+function p4(c,r){return (P[c]&&P[c][r])||0}
+function store(k,v){try{if(v===undefined){return JSON.parse(localStorage.getItem(k))}localStorage.setItem(k,JSON.stringify(v))}catch(e){return null}}
+function cnow(){var d=new Date();return new Date(d.getTime()+(d.getTimezoneOffset()+300)*60000)}
+function hash(s){var x=2166136261;for(var i=0;i<s.length;i++){x^=s.charCodeAt(i);x=Math.imul(x,16777619)}return (x>>>0)/4294967296}
+var DOW=['вс','пн','вт','ср','чт','пт','сб'];
+function dkey(d){return d.getFullYear()+'-'+pad(d.getMonth()+1)+'-'+pad(d.getDate())}
+function tstr(i){var m=540+i*30;return pad(Math.floor(m/60))+':'+pad(m%60)}
+var PG=window.__pg={};
+
+/* ---------- расчёт комплекта: одна функция для таблицы, калькулятора и записи ---------- */
+function calc(o){
+ var n=o.n,L=[],t=0,add=function(a,b){L.push([a,b]);t+=b};
+ var mount=p4(o.cls,o.r)/4*n;
+ add('Комплекс: снятие, мойка, монтаж, балансировка, герметик',mount);
+ if(o.rf)add('RunFlat или профиль ниже 45: +100 ₽ × '+n,100*n);
+ if(o.sens)add('Датчики давления: 100 ₽ × '+o.sens,100*o.sens);
+ if(o.azot)add('Азот в '+n+' колёса',250*n);
+ if(o.utl)add('Утилизация шин: 100 ₽ × '+o.utl,100*o.utl);
+ var disc=0;
+ if(o.store){var sp=(o.store===1?120:150)*n*o.months;add('Хранение '+o.months+' мес., '+(o.store===1?'без дисков':'с дисками'),sp);
+  if(o.store&&o.months>=6&&o.season){disc+=100*n;L.push(['Промокод СЕЗОН: хранение со скидкой',-100*n])}}
+ if(o.zima){var z=Math.round((mount+(o.rf?100*n:0))*0.1);disc+=z;L.push(['Промокод ЗИМА10: минус 10% на монтаж',-z])}
+ return {L:L,total:t-disc};
+}
+PG.calc=calc;
+
+/* ---------- общие мелочи ---------- */
+$$('.mm a,.menu a').forEach(function(a){a.addEventListener('click',function(){var c=$('#navT');if(c)c.checked=false})});
+if('IntersectionObserver' in window){var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('on');io.unobserve(e.target)}})},{threshold:.12});$$('.rv-in').forEach(function(x){io.observe(x)})}else{$$('.rv-in').forEach(function(x){x.classList.add('on')})}
+var tk=$('.ticker>div');
+if(tk){var base=tk.innerHTML,lw=0;var fill=function(){if(innerWidth===lw)return;lw=innerWidth;tk.innerHTML=base;var n=Math.max(1,Math.ceil(innerWidth/tk.scrollWidth));tk.innerHTML=new Array(n+1).join(base);tk.innerHTML+=tk.innerHTML;tk.style.animationDuration=Math.round(tk.scrollWidth/2/60)+'s'};fill();addEventListener('resize',fill);if(document.fonts)document.fonts.ready.then(function(){lw=0;fill()})}
+/* открыто сейчас (Челябинск, 9:00–21:00) */
+var op=$('#openNow');
+if(op){var h=cnow().getHours();var o=h>=9&&h<21;op.textContent=o?'Открыто сейчас до 21:00':'Сейчас закрыто, открываемся в 9:00';op.className='chip'+(o?'':' ghost')}
+
+/* ---------- запись на слот ---------- */
+var form=$('#bkForm');if(!form)return;
+var SV={pereob:'Сезонная переобувка',balans:'Балансировка колёс',prokol:'Ремонт прокола или пореза',pravka:'Правка литого диска',hran:'Хранение: сдать или забрать'};
+var S={svc:'pereob',cls:'car',r:16,n:4,rf:false,day:0,post:0,time:null,as:0};
+var selR=$('#bkR'),selC=$('#bkCls');
+function fillR(){var min=S.cls==='car'?13:15,html='';for(var r=13;r<=22;r++){if(r<min)continue;html+='<option value="'+r+'"'+(r===S.r?' selected':'')+'>R'+r+'</option>'}selR.innerHTML=html;if(S.r<min)S.r=min;selR.value=S.r}
+function dur(){if(S.svc==='pereob')return S.n*10+(S.rf?10:0);if(S.svc==='balans')return S.n*8;if(S.svc==='prokol')return 30;if(S.svc==='pravka')return 60;return 20}
+function need(){return Math.ceil(dur()/30)}
+var days=[];(function(){var b=cnow();for(var i=0;i<7;i++){var d=new Date(b.getFullYear(),b.getMonth(),b.getDate()+i);days.push(d)}})();
+function mine(){return store('pg_bookings')||[]}
+function busy(d,post,i){
+ var k=dkey(d),w=d.getDay(),p=0.3+((w===0||w===6)?0.22:0)+((i<4||(i>=16&&i<=19))?0.14:0);
+ if(hash(k+'|'+post+'|'+i)<p)return true;
+ var m=mine();for(var j=0;j<m.length;j++){var b=m[j];if(b.date===k&&b.post===post&&i>=b.idx&&i<b.idx+b.need)return true}
+ return false;
+}
+function free(d,post,i,nd){
+ if(i+nd>24)return false;
+ var n=cnow();if(dkey(d)===dkey(n)){var cur=n.getHours()*60+n.getMinutes()+30;if(540+i*30<cur)return false}
+ for(var k=0;k<nd;k++){if(busy(d,post,i+k))return false}
+ return true;
+}
+function firstPost(d,i,nd){if(S.post)return free(d,S.post,i,nd)?S.post:0;for(var p=1;p<=3;p++){if(free(d,p,i,nd))return p}return 0}
+function dayFree(d,nd){var c=0;for(var i=0;i<24;i++){for(var p=1;p<=3;p++){if(free(d,p,i,nd)){c++;break}}}return c}
+function renderDays(){
+ var nd=need(),h='';
+ days.forEach(function(d,i){var f=dayFree(d,nd);h+='<button type="button" class="day" data-i="'+i+'" aria-pressed="'+(i===S.day)+'"'+(f?'':' disabled')+'>'+DOW[d.getDay()].toUpperCase()+' '+pad(d.getDate())+'.'+pad(d.getMonth()+1)+'<small>'+(f?'свободно '+f:'мест нет')+'</small></button>'});
+ $('#bkDays').innerHTML=h;
+ if(!days[S.day]||dayFree(days[S.day],nd)===0){for(var i=0;i<days.length;i++){if(dayFree(days[i],nd)){S.day=i;break}}renderDays0()}
+}
+function renderDays0(){$$('#bkDays .day').forEach(function(b){b.setAttribute('aria-pressed',String(+b.dataset.i===S.day))})}
+function renderPosts(){
+ var h='<button type="button" class="pill" data-p="0" aria-pressed="'+(S.post===0)+'">Любой пост</button>';
+ for(var p=1;p<=3;p++)h+='<button type="button" class="pill" data-p="'+p+'" aria-pressed="'+(S.post===p)+'">Пост '+p+'</button>';
+ $('#bkPosts').innerHTML=h;
+}
+function renderTimes(){
+ var d=days[S.day],nd=need(),h='',ok=0;
+ for(var i=0;i<24;i++){var p=firstPost(d,i,nd);if(p)ok++;h+='<button type="button" class="tm" data-i="'+i+'" aria-pressed="'+(S.time===i)+'"'+(p?'':' disabled')+'>'+tstr(i)+'</button>'}
+ $('#bkTimes').innerHTML=h;
+ if(S.time!==null&&!firstPost(d,S.time,nd))S.time=null;
+ $('#bkHint').textContent=ok?'Зачёркнутое время занято. Время местное, Челябинск.':'На этот день для выбранной услуги мест нет, выберите другой день или пост.';
+}
+function money(){
+ var d=days[S.day],w=d.getDay(),zima=false;
+ if(S.svc==='pereob'){zima=$('#bkFirst').checked&&w>=1&&w<=5&&S.time!==null&&S.time<10;
+  return calc({cls:S.cls,r:S.r,n:S.n,rf:S.rf,zima:zima})}
+ var per={balans:250*S.n,prokol:500,pravka:1000,hran:0}[S.svc];
+ return {L:[[SV[S.svc]+(S.svc==='prokol'?' (латка, грибок от 700 ₽)':S.svc==='pravka'?' (от)':''),per]],total:per,zima:false};
+}
+function summary(){
+ var m=money(),d=days[S.day];
+ $('#sSvc').textContent=SV[S.svc];
+ $('#sCar').textContent=(S.svc==='hran'?'—':CLS[S.cls]+', R'+S.r+', '+S.n+' кол.');
+ $('#sDur').textContent='около '+dur()+' мин ('+need()*30+' мин в графике)';
+ var post=S.time!==null?firstPost(d,S.time,need()):0;S.as=post;
+ $('#sSlot').textContent=S.time!==null?DOW[d.getDay()]+' '+pad(d.getDate())+'.'+pad(d.getMonth()+1)+', '+tstr(S.time)+', пост '+post:'не выбран';
+ $('#sLines').innerHTML=m.L.map(function(x){return '<li>'+x[0]+': '+(x[1]<0?'−'+rub(-x[1]):rub(x[1]))+'</li>'}).join('');
+ $('#sTot').textContent=m.total?rub(m.total):'по факту';
+ $('#sPre').textContent=m.total?'Предоплата 20%: '+rub(m.total*0.2)+' (СБП). Остаток после работ.':'Оплата по факту.';
+ var z=S.svc==='pereob'&&$('#bkFirst').checked&&d.getDay()>=1&&d.getDay()<=5&&S.time!==null&&S.time<10;
+ $('#sPromo').textContent=z?'Промокод ЗИМА10 применён автоматически: минус 10% на монтаж.':'Автопромокод ЗИМА10: запись на переобувку в будни до 14:00, минус 10% на монтаж.';
+ return m;
+}
+function live(){
+ var n=cnow(),idx=Math.floor((n.getHours()*60+n.getMinutes()-540)/30),d=new Date(n.getFullYear(),n.getMonth(),n.getDate()),open=idx>=0&&idx<24,c=0,h='';
+ for(var p=1;p<=3;p++){var b=open&&busy(d,p,idx);if(b)c++;h+='<b class="'+(b?'busy':'')+'">П'+p+'</b>'}
+ $('#livePosts').innerHTML=h;
+ $('#liveTxt').textContent=open?'Сейчас на постах '+c+' из 3 заняты, ожидание около '+(c===3?35:c===2?25:c===1?10:0)+' минут':'Сейчас закрыто. Запишитесь на ближайшие дни.';
+ var lp=$('#liveHero');if(lp)lp.textContent=open?'Сейчас свободно постов: '+(3-c)+' из 3':'Запись на ближайшие дни открыта';
+}
+function render(){renderDays();renderPosts();renderTimes();summary()}
+selC.addEventListener('change',function(){S.cls=selC.value;fillR();S.r=+selR.value;S.time=null;render()});
+selR.addEventListener('change',function(){S.r=+selR.value;summary()});
+$('#bkSvc').addEventListener('change',function(){S.svc=this.value;S.time=null;var off=S.svc==='hran';[selC,selR,$('#bkRf')].forEach(function(e){e.disabled=off});$('#bkN').disabled=(S.svc==='prokol'||S.svc==='pravka'||off);render()});
+$('#bkN').addEventListener('change',function(){S.n=+this.value;S.time=null;render()});
+$('#bkRf').addEventListener('change',function(){S.rf=this.checked;S.time=null;render()});
+$('#bkFirst').addEventListener('change',summary);
+$('#bkDays').addEventListener('click',function(e){var b=e.target.closest('.day');if(!b||b.disabled)return;S.day=+b.dataset.i;S.time=null;renderDays0();renderTimes();summary()});
+$('#bkPosts').addEventListener('click',function(e){var b=e.target.closest('.pill');if(!b)return;S.post=+b.dataset.p;S.time=null;renderPosts();renderTimes();summary()});
+$('#bkTimes').addEventListener('click',function(e){var b=e.target.closest('.tm');if(!b||b.disabled)return;S.time=+b.dataset.i;$$('#bkTimes .tm').forEach(function(x){x.setAttribute('aria-pressed',String(+x.dataset.i===S.time))});summary()});
+
+function ics(b){
+ var s=b.idx*30+540,sh=Math.floor(s/60),sm=s%60,d=b.date.split('-'),e=s+need2(b);
+ function u(mins){var t=new Date(Date.UTC(+d[0],+d[1]-1,+d[2],0,mins-300));return t.getUTCFullYear()+pad(t.getUTCMonth()+1)+pad(t.getUTCDate())+'T'+pad(t.getUTCHours())+pad(t.getUTCMinutes())+'00Z'}
+ var L=['BEGIN:VCALENDAR','VERSION:2.0','PRODID:-//Pyataya Gayka//RU','CALSCALE:GREGORIAN','BEGIN:VEVENT','UID:'+b.code+'@pyataya-gayka.example','DTSTAMP:'+new Date().toISOString().replace(/[-:]/g,'').replace(/\.\d+/,''),'DTSTART:'+u(s),'DTEND:'+u(e),'SUMMARY:Пятая Гайка: '+b.svcName,'LOCATION:Челябинск\\, ул. Профсоюзная\\, 99 (образец)','DESCRIPTION:Бронь '+b.code+'\\, пост '+b.post+'. '+(b.carTxt||'')+' Телефон: +7 (777) 777-77-77','BEGIN:VALARM','TRIGGER:-PT60M','ACTION:DISPLAY','DESCRIPTION:Через час запись в Пятую Гайку','END:VALARM','END:VEVENT','END:VCALENDAR'];
+ return L.join('\r\n');
+}
+function need2(b){return b.need*30}
+function download(name,text,type){var a=document.createElement('a'),u=URL.createObjectURL(new Blob([text],{type:type}));a.href=u;a.download=name;document.body.appendChild(a);a.click();setTimeout(function(){URL.revokeObjectURL(u);a.remove()},500)}
+PG.ics=ics;PG.download=download;
+function qr(seed){
+ var N=21,c='',h=hash(seed);
+ function box(x,y){return '<rect x="'+x+'" y="'+y+'" width="7" height="7" fill="#12201A"/><rect x="'+(x+1)+'" y="'+(y+1)+'" width="5" height="5" fill="#fff"/><rect x="'+(x+2)+'" y="'+(y+2)+'" width="3" height="3" fill="#12201A"/>'}
+ for(var y=0;y<N;y++)for(var x=0;x<N;x++){if((x<8&&y<8)||(x>12&&y<8)||(x<8&&y>12))continue;if(hash(seed+x+'_'+y)>0.52)c+='<rect x="'+x+'" y="'+y+'" width="1" height="1" fill="#12201A"/>'}
+ return '<svg class="qr" viewBox="0 0 21 21" role="img" aria-label="Образец QR-кода СБП">'+c+box(0,0)+box(14,0)+box(0,14)+'</svg>';
+}
+function showOk(b){
+ form.parentNode.hidden=false;$('#bkOk').hidden=false;form.hidden=true;$('#bkSum').hidden=true;
+ $('#okCode').textContent=b.code;
+ $('#okTxt').textContent=b.svcName+': '+b.dateTxt+', '+tstr(b.idx)+', пост '+b.post+'. '+(b.carTxt||'')+' Ждём вас на ул. Профсоюзная, 99 (образец).';
+ var pay=$('#okPay');
+ if(b.pay==='sbp'&&b.total){
+  pay.innerHTML='<b>Предоплата 20%: '+rub(b.prepay)+'</b><p class="mute">Нажмите «Оплатить», откроется образец QR для СБП. Деньги нигде не списываются, номер карты на сайте не вводится.</p><div class="row"><button class="btn" type="button" id="payBtn">Оплатить через СБП (образец)</button></div><div id="payQr" hidden class="row">'+qr(b.code)+'<div><p class="mute">Отсканируйте QR в приложении банка. В образце платёж подтверждается кнопкой ниже.</p><button class="btn dark sm" type="button" id="payOk">Я оплатил (образец)</button></div></div>';
+  $('#payBtn').onclick=function(){$('#payQr').hidden=false;this.hidden=true};
+  $('#payOk').onclick=function(){pay.innerHTML='<b>Предоплата '+rub(b.prepay)+' получена (образец).</b><p class="mute">Слот закреплён за вами. Остаток '+rub(b.total-b.prepay)+' оплачиваете после работ.</p>';var m=mine();m.forEach(function(x){if(x.code===b.code)x.paid=true});store('pg_bookings',m)};
+ }else{pay.innerHTML='<b>Оплата на месте</b><p class="mute">Картой или наличными после работ. Если не успеваете, позвоните: бронь держим 15 минут от начала слота.</p>'}
+ $('#okIcs').onclick=function(){download('pyataya-gayka-'+b.code+'.ics',ics(b),'text/calendar;charset=utf-8')};
+ $('#okWa').href='https://wa.me/'+PHONE+'?text='+encodeURIComponent('Здравствуйте! Бронь '+b.code+': '+b.svcName+', '+b.dateTxt+' '+tstr(b.idx)+', пост '+b.post+'. '+(b.carTxt||'')+' Имя: '+b.name);
+ $('#bkOk').scrollIntoView({behavior:'smooth',block:'start'});
+}
+form.addEventListener('submit',function(e){
+ e.preventDefault();var err=$('#bkErr'),m=summary(),msg='';
+ if(S.time===null)msg='Выберите время на сетке слотов.';
+ else if($('#bkName').value.trim().length<2)msg='Укажите имя.';
+ else if($('#bkPhone').value.replace(/\D/g,'').length<10)msg='Укажите телефон: не меньше 10 цифр.';
+ else if(!$('#bkAgree').checked)msg='Нужно согласие на обработку персональных данных.';
+ if(msg){err.textContent=msg;err.hidden=false;return}
+ err.hidden=true;
+ var d=days[S.day],pay=($('input[name=bkPay]:checked')||{}).value||'sbp';
+ var code='ПГ-'+(Math.floor(hash(dkey(d)+S.time+S.as+Date.now())*9000)+1000);
+ var b={code:code,svc:S.svc,svcName:SV[S.svc],date:dkey(d),dateTxt:DOW[d.getDay()]+' '+pad(d.getDate())+'.'+pad(d.getMonth()+1),idx:S.time,need:need(),post:S.as,total:m.total,prepay:Math.round(m.total*0.2),pay:pay,name:$('#bkName').value.trim(),carTxt:S.svc==='hran'?'':CLS[S.cls]+', R'+S.r+', '+S.n+' кол.',paid:false,created:Date.now()};
+ var all=mine();all.push(b);store('pg_bookings',all);
+ document.dispatchEvent(new CustomEvent('pg:booked',{detail:b}));
+ showOk(b);
+});
+$('#okNew').addEventListener('click',function(){$('#bkOk').hidden=true;form.hidden=false;$('#bkSum').hidden=false;S.time=null;render();$('#zapis').scrollIntoView({behavior:'smooth'})});
+document.addEventListener('pg:book',function(e){
+ var o=e.detail||{};
+ if(o.svc){S.svc=o.svc;$('#bkSvc').value=o.svc}
+ if(o.cls){S.cls=o.cls;selC.value=o.cls}
+ if(o.r)S.r=o.r;fillR();
+ if(o.n){S.n=o.n;$('#bkN').value=String(o.n)}
+ S.rf=!!o.rf;$('#bkRf').checked=S.rf;
+ var off=S.svc==='hran';[selC,selR,$('#bkRf')].forEach(function(x){x.disabled=off});$('#bkN').disabled=(S.svc==='prokol'||S.svc==='pravka'||off);
+ S.time=null;$('#bkOk').hidden=true;form.hidden=false;$('#bkSum').hidden=false;render();
+ var z=$('#zapis');if(z&&!o.silent)z.scrollIntoView({behavior:'smooth'});
+});
+fillR();render();live();setInterval(live,60000);
+})();
+
+(function(){
+'use strict';
+var $=function(s){return document.querySelector(s)},$$=function(s){return Array.prototype.slice.call(document.querySelectorAll(s))};
+var calc=window.__pg.calc,P={car:{13:2900,14:2900,15:3100,16:3400,17:3700,18:3900,19:4300,20:4500,21:5000,22:5000},cross:{15:3700,16:3900,17:4200,18:4400,19:4800,20:5000,21:5500,22:5500},van:{15:3900,16:4200,17:4600,18:4900,19:5200,20:5400,21:5800,22:5800}};
+var rub=function(n){return String(Math.round(n)).replace(/\B(?=(\d{3})+(?!\d))/g,' ')+' ₽'};
+function opts(sel,cls,keep){var min=cls==='car'?13:15,h='';for(var r=13;r<=22;r++){if(r<min)continue;h+='<option value="'+r+'">R'+r+'</option>'}sel.innerHTML=h;sel.value=(keep>=min?keep:Math.max(min,16))}
+/* быстрый расчёт */
+var qC=$('#qCls'),qR=$('#qR');opts(qR,'car',16);
+function q(){$('#qP').textContent=rub(P[qC.value][qR.value])}
+qC.addEventListener('change',function(){opts(qR,qC.value,+qR.value);q()});qR.addEventListener('change',q);q();
+$('#qGo').addEventListener('click',function(e){e.preventDefault();document.dispatchEvent(new CustomEvent('pg:book',{detail:{svc:'pereob',cls:qC.value,r:+qR.value,n:4}}))});
+/* калькулятор */
+var kC=$('#kCls'),kR=$('#kR');opts(kR,'car',16);
+function kget(){return {cls:kC.value,r:+kR.value,n:+$('#kN').value,rf:$('#kRf').checked,sens:+$('#kS').value,azot:$('#kAz').checked,utl:+$('#kU').value,store:+$('#kSt').value,months:+$('#kM').value,season:true}}
+function k(){var o=kget(),c=calc(o);$('#kL').innerHTML=c.L.map(function(x){return '<li><span>'+x[0]+'</span><b'+(x[1]<0?' class="promo"':'')+'>'+(x[1]<0?'−'+rub(-x[1]):rub(x[1]))+'</b></li>'}).join('');$('#kT').textContent='≈ '+rub(c.total);
+ var t='Здравствуйте! Смета с сайта Пятой Гайки: '+kC.options[kC.selectedIndex].text+', R'+o.r+', '+o.n+' кол. Итого примерно '+rub(c.total)+'.';$('#kWa').href='https://wa.me/77777777777?text='+encodeURIComponent(t)}
+kC.addEventListener('change',function(){opts(kR,kC.value,+kR.value);k()});
+$$('#kForm select,#kForm input').forEach(function(e){e.addEventListener('change',k)});k();
+$('#kGo').addEventListener('click',function(){var o=kget();document.dispatchEvent(new CustomEvent('pg:book',{detail:{svc:'pereob',cls:o.cls,r:o.r,n:o.n,rf:o.rf}}))});
+/* хранение */
+function h(){var d=+$('#hD').value,n=+$('#hN').value,m=+$('#hM').value,s=$('#hS').checked&&m>=6,sum=d*n*m,disc=s?100*n:0;
+ $('#hT').textContent=rub(sum-disc);$('#hNote').textContent=(s?'Со скидкой СЕЗОН −'+rub(disc)+'. ':'')+'Это '+rub((sum-disc)/n/m)+' за колесо в месяц. Остаток оплачивается при сдаче колёс.'}
+$$('#hForm select,#hForm input').forEach(function(e){e.addEventListener('change',h)});h();
+$('#hGo').addEventListener('click',function(){document.dispatchEvent(new CustomEvent('pg:book',{detail:{svc:'hran'}}))});
+/* каталог */
+$$('.cat-f .pill').forEach(function(b){b.addEventListener('click',function(){$$('.cat-f .pill').forEach(function(x){x.setAttribute('aria-pressed',String(x===b))});$$('#cats .cat').forEach(function(c){c.hidden=!(b.dataset.f==='all'||c.dataset.t===b.dataset.f)})})});
+/* напоминание */
+var ch='WhatsApp';try{ch=JSON.parse(localStorage.getItem('pg_remind')||'null')||ch}catch(e){}
+function rem(show){$$('#rem .pill').forEach(function(b){b.setAttribute('aria-pressed',String(b.dataset.c===ch))});if(show){var m=$('#remMsg');m.hidden=false;m.textContent='Запомнили: напишем в '+ch+', когда среднесуточная температура будет +7 °C и ниже 5–7 дней (в образце сохраняется в браузере).'}}
+$$('#rem .pill').forEach(function(b){b.addEventListener('click',function(){ch=b.dataset.c;rem(false)})});
+$('#remGo').addEventListener('click',function(){try{localStorage.setItem('pg_remind',JSON.stringify(ch))}catch(e){}rem(true)});rem(false);
+})();
+</script>
+</body>
+</html>
